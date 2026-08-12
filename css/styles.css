@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.header .logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #4fc9a8;
+}
+.header .nav__list {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.header .nav__list a {
+  text-decoration: none;
+  color: #1c1c1c;
+  font-weight: 500;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 2rem;
+}
+.hero__content {
+  max-width: 500px;
+}
+.hero__title {
+  font-size: 2.5rem;
+  color: #1c1c1c;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+.hero__title .highlight {
+  color: #4fc9a8;
+}
+.hero__text {
+  color: #6b6b6b;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+.hero__image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #4fc9a8;
+  color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  color: #6b6b6b;
+}
+.footer a {
+  color: #4fc9a8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styles.css.map */
